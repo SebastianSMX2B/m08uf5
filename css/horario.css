@@ -32,3 +32,6 @@ table, tr, td{
     background-color: cadetblue; 
     font-family: 'Times New Roman', Times, serif;
 }
+.m08:hover{
+    background-image: linear-gradient(to bottom right, aquamarine, blue);
+}
