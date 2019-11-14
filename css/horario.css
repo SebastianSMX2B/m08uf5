@@ -1,0 +1,34 @@
+table, tr, td{
+    border: 1px solid;
+    text-align: center;
+}
+.m04{
+    background-color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+}
+.m06{
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m07{
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m08{
+    background-image: linear-gradient(to bottom right, blue, aquamarine);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.horas{
+    background-color: darkgray;
+}
+.dias{
+    background-color: darkred;
+}
+.eie{
+    background-color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tut{
+    background-color: cadetblue; 
+    font-family: 'Times New Roman', Times, serif;
+}
