@@ -38,4 +38,8 @@ a{
 }
 .m08:hover{
     background-image: linear-gradient(to bottom right, aquamarine, blue);
+    animation: girocompleto 1s;
+}
+@-webkit-keyframes girocompleto{
+    100%{transform: rotate(360deg)}
 }
