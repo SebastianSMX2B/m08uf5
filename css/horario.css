@@ -1,6 +1,10 @@
 table, tr, td{
     border: 1px solid;
     text-align: center;
+    text-decoration: underline;
+}
+a{
+    font-weight: bold;
 }
 .m04{
     background-color: chocolate;
