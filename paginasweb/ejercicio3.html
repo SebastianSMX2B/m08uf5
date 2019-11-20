@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <title>Formulari</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../css/formulario.css"/>
+    </head>
+    <body>
+<form action="form.html" method="get" enctype="multipart/form-data">
+    <h1>Curriculum</h1>
+<fieldset id="informacion">
+    <legend>Información Basica</legend>
+    <h2></h2>
+    <label class="linfo">Nombre</label><br/><input type="text" name="nombre" value="" placeholder="tunombre"/>
+    <h2></h2>
+    <label>Altura en centimetros</label><br/><input type="number" name="altura" value="100"/>
+    <h2></h2>
+    <label class="linfo">email</label><br/><input type="email" name="email" value="" placeholder="tuemail@dominio.com"/>
+    <h2></h2>
+    <label class="linfo">Fecha Nacimiento:</label><br/><input type="date" name="fecha" value="12/12/2018"/>
+    <h2></h2>
+    <label class="linfo">Sexo:</label><br/>
+    <input type="radio" name="b_nacionalidad" value="hombre"/>Hombre
+    <input type="radio" name="b_nacionalidad" value="mujer"/>Mujer
+</fieldset>
+<fieldset id="nacionalidad">
+    <legend>Nacionalidad</legend>
+    <input type="radio" name="b_nacionalidad" value="españa" class="lnacio"/>Española
+    <input type="radio" name="b_nacionalidad" value="comunitario" class="lnacio"/>Comunitario(UE)
+    <input type="radio" name="b_nacionalidad" value="nocom" class="lnacio"/>No comunitario
+</fieldset>
+<fieldset id="estudios">
+    <legend>Estudios</legend>
+    <select name="estudios">
+        <option value="primaria">Estudios primarios</option>
+        <option value="eso">ESO</option>
+        <option value="cfgm">CFGM</option>
+        <option value="cfgs">CFGS</option>
+        <option value="universidad">Estudios universitarios</option>
+    </select>
+</fieldset>
+<fieldset id="idiomas">
+    <legend>Idiomas</legend>
+    <input type="checkbox" name="idiomas" value="castellano" checked class="lidio"/>Castellano
+    <input type="checkbox" name="idiomas" value="catalan" class="lidio"/>Catalán
+    <input type="checkbox" name="idiomas" value="ingles" class="lidio"/>Ingles
+    <input type="checkbox" name="idiomas" value="chino" class="lidio"/>Chino
+</fieldset>
+<fieldset id="botones">
+    <input type="submit" id="id_submit" name="b_envio" value="Enviar"/>
+    <input type="reset" id="id_reset" name="b_cancelar" value="Cancelar"/>
+</fieldset>
+</form>
+    </body>
+    </html>

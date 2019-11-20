@@ -1,0 +1,33 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+.linfo{
+    color: blue;
+    font-style: italic;
+}
+#botones{
+    background-color: grey;
+}
+#informacion{
+    background-color: salmon;
+}
+#nacionalidad{
+    background-color: limegreen;
+    font-style: italic;
+    color: green;
+}
+#estudios{
+    background-color: palevioletred;
+}
+#idiomas{
+    background-color: aquamarine;
+    font-style: italic;
+    color: red;
+}
+legend{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
