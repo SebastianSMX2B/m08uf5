@@ -1,0 +1,58 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+table, td{
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19)
+}
+.azul:hover{
+    transition-duration: 1s;
+    border-radius: 50%;
+}
+.rojo:hover{
+    transition-duration: 1s;
+    border-radius: 50%;
+}
+.tablaazul:hover{
+    transition-duration: 1s;
+    background-color: cyan;
+    border-radius: 50%;
+}
+.tablarojo:hover{
+    transition-duration: 1s;
+    background-color: pink;
+    border-radius: 50%;
+}
+.textorojo{
+    background-color: pink;
+    margin: 0px 0px 0px 0px;
+    padding: 5%;
+}
+.textoazul{
+    background-color: cyan;
+    margin: 0px 0px 0px 0px;
+    padding: 5%;
+}
+#minun{
+    font-family: 'Alata', sans-serif;
+}
+#plusle{
+    font-family: 'Calistoga', cursive;
+}
+#latios{
+    font-family: 'Open Sans', sans-serif;
+}
+#latias{
+    font-family: 'Odibee Sans', cursive;
+}
+a:hover{
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+    color: orange;
+    font-size: 30px;
+}
