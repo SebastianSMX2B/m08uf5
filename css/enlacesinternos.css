@@ -53,6 +53,10 @@ table, td{
 a:hover{
     transition-timing-function: ease-out;
     transition-duration: 1s;
-    color: orange;
+    color: white;
     font-size: 30px;
+    background: linear-gradient(45deg, rgb(235, 7, 7) 0%, rgb(10, 196, 233)100%);
+}
+#indice{
+    border: none;
 }
