@@ -1,0 +1,31 @@
+#div1, #div7, #div8{
+    width: 396px;
+    height: 98px;
+    background-color: aqua;
+}
+#div2, #div5, #div6, #div10, #div11, #div12{
+    width: 196px;
+    height: 98px;
+    background-color: greenyellow;
+}
+#div3, #div4, #div9{
+    width: 196px;
+    height: 196px;
+    background-color: blue;
+}
+div{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+#divalfa{
+    height: 600px;
+    width: 600px;
+}
+.right{
+    float: left;
+}
+.left{
+    float: right;
+}
