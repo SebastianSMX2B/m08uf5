@@ -1,0 +1,115 @@
+#cabecera{
+    animation: fondo 5s infinite;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+@keyframes fondo{
+    0%   {
+    background-color: red;
+    color:yellow;
+}
+    25%  {
+    background-color: yellow;
+    color:red;
+}
+    50%  {
+    background-color: blue;
+    color:green;
+}
+    75%  {
+    background-color: green;
+    color:blue;
+    }
+    100% {
+    background-color: red;
+    color:yellow;
+    }
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+#titulo{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#izquierda{
+    position: absolute;
+    animation: fondoizquierda 5s infinite;
+    background-color: green;
+    height: 100%;
+    width: 20%;
+}
+@keyframes fondoizquierda{
+    0%   {
+    background-color: green;
+    color:yellow;
+}
+    25%  {
+    background-color: red;
+    color: blue;
+}
+    50%  {
+    background-color: yellow;
+    color:green;
+}
+    75%  {
+    background-color: blue;
+    color: red;
+    }
+    100% {
+    background-color: green;
+    color:yellow;
+    }
+}
+#centro{
+    background-color: yellow;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    animation: fondocentro 5s infinite;
+}
+@keyframes fondocentro{
+    0%   {
+    background-color: yellow;
+    color: red;
+}
+    25%  {
+    background-color: blue;
+    color:green;
+}
+    50%  {
+    background-color: green;
+    color:blue;
+}
+    75%  {
+    background-color: red;
+    color: yellow;
+    }
+    100% {
+    background-color: yellow;
+    color:red;
+    }
+}
+#banner{
+    background-color: green;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    right: 0%;
+}
+#prueba{
+    background-color: blue;
+    height: 570px;
+    position: relative;
+}
+#abajo{
+    background-color: red;
+    height: 200px;
+}
