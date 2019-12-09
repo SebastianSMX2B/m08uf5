@@ -13,7 +13,9 @@ header img{
     width: 200px;
     height: 200px;
 }
-
+header img:hover{
+    border-radius: 50%;
+}
 #tituloprincipal{
     display: inline-block;
     background-color: aquamarine;
@@ -61,3 +63,29 @@ nav a:hover{
     border-bottom: 3px solid #760001;
     border-top: 3px solid #760001;
 }
+#banner_image
+{
+
+}
+
+#banner_description
+{
+
+}
+/*
+.red_button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}*/
