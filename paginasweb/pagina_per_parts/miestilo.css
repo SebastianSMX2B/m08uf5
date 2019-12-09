@@ -63,16 +63,13 @@ nav a:hover{
     border-bottom: 3px solid #760001;
     border-top: 3px solid #760001;
 }
-#banner_image
-{
-
+#banner_image{
+    background-image: url(imatges/sanfrancisco.jpg)
 }
 
-#banner_description
-{
+#banner_description{
 
 }
-/*
 .red_button
 {
     display: inline-block;
@@ -88,4 +85,4 @@ nav a:hover{
     padding: 3px 8px 0px 8px;
     color: white;
     text-decoration: none;
-}*/
+}
