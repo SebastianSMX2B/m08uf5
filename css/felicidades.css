@@ -1,0 +1,29 @@
+#felicidades{
+    font-size: 150px;
+    animation-name: colores;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    height: 100%;
+    width: 100%;
+}
+@keyframes colores{
+    0%{
+        color: red;
+        background-color: blue;
+    }
+    25%{
+        color: greenyellow;
+        background-color: red;
+    }
+    50%{
+        color: yellow;
+        background-color: greenyellow;
+    }
+    75%{
+        color: blue;
+        background-color: yellow;
+    }
+    100%{
+        color: red;
+        background-color: blue;
+    }

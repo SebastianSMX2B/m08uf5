@@ -1,0 +1,12 @@
+#diario{
+    width: 830px;
+    padding: 0px;
+    margin: 0px;
+}
+#cabecera{
+    height: 154px;
+}
+#cabecera_foto{
+    position: absolute;
+    left: 40px;
+}
