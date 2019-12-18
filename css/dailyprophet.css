@@ -2,8 +2,14 @@
     width: 830px;
     padding: 0px;
     margin: 0px;
-    border: 27px solid transparent;
-    border-image: url(../imatges/imagenes/borde.png) repeat;
+    border-left: 27px solid transparent;
+    border-image: url(../imatges/imagenes/borde.png) 20% round;
+}
+#borde{
+    width: 857px;
+    position: absolute;
+    border-right: 27px solid transparent;
+    border-image: url(../imatges/imagenes/bordederecha.png) 20% round;
 }
 #cabecera{
     height: 154px;
