@@ -2,11 +2,53 @@
     width: 830px;
     padding: 0px;
     margin: 0px;
+    border: 27px solid transparent;
+    border-image: url(../imatges/imagenes/borde.png) repeat;
 }
 #cabecera{
     height: 154px;
 }
+#tiempo{
+    height: 90px;
+}
 #cabecera_foto{
+    margin-top: 1px;
+    margin-left: 40px;
+}
+#laterales_y_foto{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    height: 820px;
+    
+}
+#lateral_izquierdo{
+    width: 135px;
+    display: inline-block;
+    position: relative;
+}
+#centro{
+    display: inline;
     position: absolute;
-    left: 40px;
+    width: 442px;
+    height: 752px;
+    left: 193px;
+}
+#lateral_derecho{
+    width: 137px;
+    position: absolute;
+    display: inline;
+    right: 0px; 
+}
+#sirius{
+    height: 505px;
+    width: 442px;
+}
+main{
+    border: 1px solid black;
+    background-color: #fef2cd;
+}
+hr{
+    height: 10px;
+    background-color: black;
 }
