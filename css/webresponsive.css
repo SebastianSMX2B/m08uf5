@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    background-color: lightgreen;
+    color: white;
+}
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 30px;
+}
+#col1{
+    width: 70%;
+    float: left;
+    background-color: aqua;
+}
+#col2{
+    width: 30%;
+    float: left;
+    background-color: chocolate;
+}
+
+@media screen and (max-width: 768px){
+#titulo{
+    background-color: lightgreen;
+    color: white;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+}
+#col1{
+    width: 100%;
+    float: left;
+    background-color: aqua;
+}
+#col2{
+    width: 100%;
+    float: left;
+    background-color: chocolate;
+}
+    }
+@media screen and (max-width: 576px){
+
+}
