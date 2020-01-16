@@ -1,0 +1,16 @@
+.titulo{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+footer{
+    margin-top: 90px;
+    font-size: 1em;
+}
+@media screen and (max-width: 768px){
+    footer{
+        font-size: 2em;
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,136 @@
+body {
+    background-color: #f4d142;
+    z-index: 1;
+  }
+  
+  .circulo {
+    background-color: #36383a;
+    width: 150px;
+    margin: auto;
+    top: -400px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 4;
+    position: absolute;
+  }
+  
+  .aspa {
+    background-color: grey;
+    width: 50px;
+    height: 500px;
+    margin: auto;
+    top: 20px;
+    right: 0;
+    z-index: 3;
+    position: relative;
+    border-radius: 0px 60px 0px;
+    animation-name: giro;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  .aspa1 {
+    background-color: grey;
+    width: 50px;
+    height: 500px;
+    margin: auto;
+    top: -475px;
+    z-index: 3;
+    position: relative;
+    transform: rotate(45deg);
+    border-radius: 0px 60px 0px;
+    animation-name: giro1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  .aspa2 {
+    background-color: grey;
+    width: 50px;
+    height: 500px;
+    margin: auto;
+    top: -975px;
+    z-index: 3;
+    position: relative;
+    transform: rotate(90deg);
+    border-radius: 0px 60px 0px;
+    animation-name: giro2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  .aspa3 {
+    background-color: grey;
+    width: 50px;
+    height: 500px;
+    margin: auto;
+    top: -1475px;
+    z-index: 3;
+    position: relative;
+    transform: rotate(-45deg);
+    border-radius: 0px 60px 0px;
+    animation-name: giro3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  .cuerpo {
+    background-color: #5c5f63;
+    width: 100px;
+    height: 260px;
+    position: relative;
+    margin: auto;
+    top: -1690px;
+    z-index: 1;
+  }
+  
+  .pie {
+    background-color: #686b70;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: -1735px;
+    border-color: #5c5f63;
+    border: 5px;
+    border-radius: 25%;
+    z-index: 4;
+  }
+  
+  @keyframes giro {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes giro1 {
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+  
+  @keyframes giro2 {
+    100% {
+      transform: rotate(450deg);
+    }
+  }
+  
+  @keyframes giro3 {
+    100% {
+      transform: rotate(315deg);
+    }
+  }
+  
+  .button {
+    margin: 30px 0px 0px 50px;
+    position: relative;
+  }
+  
