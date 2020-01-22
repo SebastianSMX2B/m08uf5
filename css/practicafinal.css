@@ -1,0 +1,16 @@
+
+.margin-right{
+    margin-right: 20px;
+}
+.titulos{
+    text-align: center;
+}
+@media screen and (max-width:991px){
+.margin-right{
+    margin-right: 150px;
+}
+.titulos{
+    text-align: left;
+    margin-left: 10px;
+}
+}
