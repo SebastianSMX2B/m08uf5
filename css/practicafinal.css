@@ -19,7 +19,20 @@ footer{
     text-align: center;
 
 }
-
+#oferta{
+    transform: rotate(45deg) scale(1.5);
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    right: -10px;
+    width: 150px;
+    z-index: 3;
+    text-align: center;
+}
+#oferta a{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width:991px){
 .margin-right{
     margin-right: 150px;
