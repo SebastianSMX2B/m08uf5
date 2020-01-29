@@ -1,0 +1,19 @@
+#copia{
+    transform: rotate(45deg) scale(1.5);
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    right: -10px;
+    width: 150px;
+    z-index: 5;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.classe1{
+    color: wheat;
+}
+.classe2{
+    color: pink;
+}
